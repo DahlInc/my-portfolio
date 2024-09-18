@@ -1,0 +1,86 @@
+<!-- project1.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immersive Three.js 3D Environment</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container project-page">
+        <h2>Immersive Three.js 3D Environment</h2>
+
+        <!-- Project Content Wrapper -->
+        <div class="project-content">
+            <!-- Section 1: Introduction -->
+            <section class="project-section">
+                <h3>Introduction</h3>
+                <p>
+                    This project is a dynamic 3D interactive portfolio website that leverages the powerful Three.js library for real-time 3D rendering, combined with various web technologies such as GSAP for smooth animations, and TWEEN.js for easing control. The website is styled as an interactive Ramen Shop, where users can explore a virtual ramen shop filled with various objects representing projects, features, and interactive elements. This project demonstrates a deep integration of 3D modeling, web interactivity, and advanced visual effects like bloom, lighting, and animations.
+                </p>
+            </section>
+
+            <!-- Image 1: Homepage Screenshot -->
+            <div class="project-image">
+                <img src="images/project1-img1.jpg" alt="Homepage Screenshot">
+            </div>
+
+            <!-- Section 2: Design -->
+            <section class="project-section">
+                <h3>Design</h3>
+                <p>
+                    The centerpiece of the project is a fully modeled 3D ramen shop created in Blender and
+exported as a GLB file. This model serves as the primary environment of the website, providing
+an immersive experience for the user. Within the 3D scene, certain objects are clickable, allowing users to interact with them in
+various ways. For example, project placeholders (represented by images) are placed throughout
+the scene, and when clicked, the camera zooms in to give the user a closer view of the project.
+This functionality is built using raycasting in Three.js to detect object clicks and GSAP for
+smooth camera transitions.
+
+
+                </p>
+            </section>
+
+            <!-- Image 2: Feature Highlight -->
+            <div class="project-image">
+                <img src="images/project1-img2.jpg" alt="Feature Highlight">
+            </div>
+
+            <!-- Section 3: Implementation -->
+            <section class="project-section">
+                <h3>Implementation</h3>
+                <p>
+                    The interactive scene features a continuously spinning fan animated with Three.js to enhance realism. Advanced lighting techniques, including point, ambient, and directional lights, create a vibrant atmosphere, while bloom effects on elements like lamp posts add a cyberpunk glow using Three.js’s UnrealBloomPass. Smooth user interactions are managed with OrbitControls, allowing camera rotation, zoom, and panning, while locking focus on specific objects when needed. The portfolio showcases dynamic, clickable PNG project images that zoom into detailed views upon interaction. Additionally, background music loaded via Three.js’s AudioLoader immerses users further into the cyberpunk aesthetic.
+
+                </p>
+            </section>
+
+            <!-- Image 3: Responsive Design -->
+            <div class="project-image">
+                <img src="images/project1-img3.jpg" alt="Responsive Design">
+            </div>
+
+            <!-- Section 4: Conclusion -->
+            <section class="project-section">
+                <h3>Purpose and Use Case:</h3>
+                <p>
+This project serves as a portfolio showcase for interactive web development and 3D modeling
+skills. The combination of Blender for 3D asset creation and Three.js for rendering highlights the
+developer’s ability to merge design and functionality seamlessly. The interactive nature of the
+portfolio demonstrates proficiency in user experience (UX) design, where intuitive control and
+visual effects are balanced for a smooth, immersive experience. The use of advanced
+technologies like GLTF model loading, real-time lighting, and audio integration adds depth and
+realism to the scene.
+In summary, this project is not just a portfolio showcase but an example of how 3D
+environments can enhance the presentation of creative work in web development. By merging
+interactive elements with smooth transitions, realistic lighting, and audio, the project elevates
+the standard web portfolio to an engaging and immersive experience                </p>
+            </section>
+        </div>
+
+        <!-- Navigation Button -->
+        <a href="index.html" class="nav-button">Back</a>
+    </div>
+</body>
+</html>
