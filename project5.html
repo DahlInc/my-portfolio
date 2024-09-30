@@ -13,13 +13,19 @@
 
         <!-- Project Content Wrapper -->
         <div class="project-content">
-            <!-- Section 1: Introduction -->
+            <!-- Section 1: Project Overview -->
             <section class="project-section">
                 <h3>Project Overview</h3>
                 <p>
-The project aims to leverage artificial intelligence (AI) and machine learning (ML) techniques to forecast wind power generation based on real-time weather data. Wind power is one of the fastest-growing sources of renewable energy, and accurately predicting wind energy output is crucial for optimizing energy grid operations, balancing supply and demand, and maximizing efficiency.
-
-This project uses real-time meteorological data from OpenWeatherMap and incorporates cutting-edge time series forecasting models to predict wind speeds, which are a critical factor in determining wind power generation. By utilizing lag features and historical weather patterns, the model can anticipate future wind speeds and help energy planners better understand wind power output.                </p>
+                    This project aims to leverage artificial intelligence (AI) and machine learning (ML) techniques to forecast wind power generation based on real-time weather data. 
+                    Wind power is one of the fastest-growing sources of renewable energy, and accurately predicting wind energy output is crucial for optimizing energy grid operations, 
+                    balancing supply and demand, and maximizing efficiency.
+                </p>
+                <p>
+                    By using real-time meteorological data from OpenWeatherMap and incorporating advanced time series forecasting models, this project predicts wind speeds, a critical factor in 
+                    determining wind power generation. The model utilizes lag features and historical weather patterns, anticipating future wind speeds to help energy planners better understand 
+                    and manage wind power output.
+                </p>
             </section>
 
             <!-- Image 1: Homepage Screenshot -->
@@ -27,28 +33,22 @@ This project uses real-time meteorological data from OpenWeatherMap and incorpor
                 <img src="images/project5-img1.jpg" alt="Homepage Screenshot">
             </div>
 
-            <!-- Section 2: Design -->
+            <!-- Section 2: Key Features -->
             <section class="project-section">
-                <h3>Keey Features</h3>
-                <p>
-Real-Time Weather Data Collection:
-A Python-powered data collection system fetches live weather data from OpenWeatherMap, focusing on factors such as wind speed, temperature, humidity, and pressure. This system is designed to gather data at regular intervals, ensuring an up-to-date and comprehensive dataset that serves as the foundation for predictive modeling.
+                <h3>Key Features</h3>
+                <ul>
+                    <li><strong>Real-Time Weather Data Collection:</strong> A Python-powered system fetches live weather data from OpenWeatherMap, focusing on wind speed, temperature, humidity, and pressure. Data is gathered at regular intervals, providing a comprehensive dataset for predictive modeling.</li>
 
-Automated Data Logging and Organization:
-Weather data is automatically appended to a structured CSV file in real-time, with each new data entry timestamped. This ensures that even if the weather data doesn't change significantly, each data point is captured and stored for analysis. This ensures a reliable dataset for model training.
+                    <li><strong>Automated Data Logging and Organization:</strong> Weather data is automatically appended to a CSV file, with each new entry timestamped. This structured logging ensures a growing, reliable dataset for training the machine learning model.</li>
 
-Feature Engineering Using Historical Weather Data:
-The project incorporates feature engineering techniques to improve model accuracy. One of the key features is the creation of lag features, where the wind speeds from previous time intervals (e.g., 1 hour ago, 2 hours ago) are used as predictors for future wind speeds. These lag features allow the model to learn temporal patterns and trends in the data, making the predictions more robust and context-aware.
+                    <li><strong>Feature Engineering Using Historical Weather Data:</strong> The project generates lag features (e.g., wind speeds from 1 or 2 hours ago) to improve prediction accuracy, allowing the model to learn temporal patterns in the data.</li>
 
-Machine Learning Model Training:
-The project employs a linear regression model or similar machine learning algorithm to predict wind speeds based on historical weather data. The model is trained using the collected data and validated using a separate test set to assess its accuracy. The model leverages the lag features to generate more accurate predictions for wind speeds at future intervals, which are critical for estimating wind energy output.
+                    <li><strong>Machine Learning Model Training:</strong> A linear regression model (or similar) is trained using the collected data, validated with a test set, and used to predict future wind speeds. The model leverages lag features for more accurate predictions.</li>
 
-Evaluation and Metrics:
-The model's performance is evaluated using metrics such as Mean Squared Error (MSE), which quantifies how closely the predicted wind speeds match the actual observed data. The lower the error, the more accurate the model, allowing for fine-tuning and improvements in future iterations.
+                    <li><strong>Evaluation and Metrics:</strong> Model performance is measured using metrics like Mean Squared Error (MSE), quantifying how closely the predictions match the actual data. Lower errors indicate a more accurate model, providing insights for future improvements.</li>
 
-Forecasting Wind Power Generation:
-By predicting future wind speeds, the project simulates real-world energy forecasting scenarios. Energy companies and grid operators could theoretically use this model to anticipate wind energy production, make informed decisions on energy storage, and manage supply-demand dynamics in real-time.
-                </p>
+                    <li><strong>Forecasting Wind Power Generation:</strong> By predicting future wind speeds, the project simulates real-world energy forecasting scenarios, allowing energy companies and grid operators to anticipate wind energy production and make informed decisions on energy storage and grid management.</li>
+                </ul>
             </section>
 
             <!-- Image 2: Feature Highlight -->
@@ -56,20 +56,16 @@ By predicting future wind speeds, the project simulates real-world energy foreca
                 <img src="images/project5-img2.jpg" alt="Feature Highlight">
             </div>
 
-            <!-- Section 3: Implementation -->
+            <!-- Section 3: Potential Applications -->
             <section class="project-section">
-                <h3>Potential Applications:</h3>
-                <p>
-                  Energy Grid Optimization: Accurate wind speed forecasts enable energy providers to optimize grid operations, reducing the need for backup power sources and improving energy storage management.
-Sustainability and Cost Reduction: Efficient forecasting can reduce reliance on non-renewable backup systems, contributing to sustainability goals while lowering operational costs for energy providers.
-Operational Planning for Wind Farms: By predicting future wind conditions, wind farm operators can plan maintenance and operational schedules more efficiently, ensuring maximum output during peak wind conditions.
-Technologies Used:
-Python: Core programming language for data collection, processing, and machine learning.
-Pandas: For data manipulation and storage, ensuring efficient handling of time-series data.
-Scikit-learn: Machine learning library used to build and train the predictive model.
-OpenWeatherMap API: Source of real-time meteorological data, ensuring the latest weather conditions are incorporated into the forecasts.
-CSV Logging: Structured logging of weather data ensures that the dataset grows over time and is properly formatted for training the model.
-                </p>
+                <h3>Potential Applications</h3>
+                <ul>
+                    <li><strong>Energy Grid Optimization:</strong> Accurate wind speed forecasts enable energy providers to optimize grid operations, reducing reliance on backup power sources and improving energy storage management.</li>
+
+                    <li><strong>Sustainability and Cost Reduction:</strong> Efficient forecasting reduces dependency on non-renewable backup systems, helping achieve sustainability goals while cutting operational costs for energy providers.</li>
+
+                    <li><strong>Operational Planning for Wind Farms:</strong> Predicting future wind conditions enables wind farm operators to plan maintenance schedules more effectively, ensuring maximum output during peak wind conditions.</li>
+                </ul>
             </section>
 
             <!-- Image 3: Responsive Design -->
@@ -81,7 +77,10 @@ CSV Logging: Structured logging of weather data ensures that the dataset grows o
             <section class="project-section">
                 <h3>Conclusion</h3>
                 <p>
-This project showcases the potential of using AI-driven time series forecasting models to predict wind power generation. By integrating real-time data collection, feature engineering, and machine learning, this system lays the groundwork for future advancements in renewable energy forecasting. The combination of real-time data with intelligent prediction models can play a significant role in shaping the future of energy management and sustainability efforts across the globe.                </p>
+                    This project demonstrates the potential of using AI-driven time series forecasting models to predict wind power generation. By integrating real-time data collection, 
+                    feature engineering, and machine learning, this system provides a robust framework for future advancements in renewable energy forecasting. The combination of real-time data 
+                    and intelligent prediction models plays a critical role in shaping the future of energy management and sustainability.
+                </p>
             </section>
         </div>
 
@@ -90,3 +89,4 @@ This project showcases the potential of using AI-driven time series forecasting 
     </div>
 </body>
 </html>
+
