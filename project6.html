@@ -3,73 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Power BI Interactive Dashboard: Data Optimization and Machine Learning Integration</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header>
-            <h1>Welcome to My Portfolio</h1>
-            <p>I am Mads Dahl, a versatile professional with a strong foundation in financial analysis, project coordination, e-commerce entrepreneurship, and strategic management. My skill set spans across multiple disciplines, including financial modeling, marketing, supply chain management, and operations excellence, allowing me to contribute effectively to a variety of industries and roles. Explore my projects below.</p>
-        </header>
+    <div class="container project-page">
+        <h2>Power BI Interactive Dashboard: Data Optimization and Machine Learning Integration</h2>
 
-        <!-- Navigation Bar -->
-        <nav class="navigation">
-            <a href="about.html" class="nav-button">About Me</a>
-            <a href="https://dahlinc.github.io/3D-Portfolio/" class="nav-button">3D Portfolio</a>
-        </nav>
+        <!-- Project Content Wrapper -->
+        <div class="project-content">
+            <!-- Section 1: Project Overview -->
+            <section class="project-section">
+                <h3>Project Overview</h3>
+                <p>
+                    This project showcases the development of an interactive Power BI dashboard designed to optimize data workflows and integrate advanced analytics. 
+                    The dashboard leverages a <strong>star schema</strong> for efficient data modeling, utilizes <strong>DAX (Data Analysis Expressions)</strong> for advanced calculations, 
+                    and integrates <strong>Python</strong> within Power Query to implement machine learning models such as linear regression, ARIMA, and random forest. 
+                    The goal is to demonstrate my foundational skills in data visualization, optimization, and predictive analytics.
+                </p>
+                <p>
+                    The interactive dashboard provides actionable insights through dynamic visualizations, enabling users to explore data trends, forecast outcomes, 
+                    and make data-driven decisions. The integration of machine learning models enhances the dashboard's predictive capabilities, making it a powerful tool for business intelligence.
+                </p>
+            </section>
 
-        <!-- Projects Grid -->
-        <div class="projects-grid">
-            <!-- Project 1 -->
-            <div class="project-card">
-                <img src="images/project1-img1.jpg" alt="Project 1 Image">
-                <h3>Immersive Three.js 3D Environment</h3>
-                <p>An immersive 3D interactive portfolio website, leveraging Three.js and advanced web animations for engaging project showcases.</p>
-                <a href="project1.html" class="project-link">Learn More</a>
+            <!-- GIF: Interactive Dashboard -->
+            <div class="project-image">
+                <img src="images/interactive.gif" alt="Interactive Dashboard GIF">
             </div>
 
-            <!-- Project 2 -->
-            <div class="project-card">
-                <img src="images/project2-img1.jpg" alt="Project 2 Image">
-                <h3>Automating Real-Time Stock Data Collection with Python: A Yahoo Finance Scraper</h3>
-                <p>A Python-powered scraper that automates real-time extraction of Yahoo Finance stock data for comprehensive financial analysis.</p>
-                <a href="project2.html" class="project-link">Learn More</a>
+            <!-- Section 2: Key Features -->
+            <section class="project-section">
+                <h3>Key Features</h3>
+                <ul>
+                    <li><strong>Star Schema for Optimized Dataflow:</strong> The data model is built using a star schema, ensuring efficient data storage, faster query performance, and simplified data relationships. Fact and dimension tables are carefully designed to support scalable analytics.</li>
+
+                    <li><strong>DAX for Advanced Calculations:</strong> DAX is used to create calculated columns, measures, and KPIs, enabling complex calculations such as year-over-year growth, moving averages, and cumulative totals. These calculations are seamlessly integrated into the dashboard for real-time insights.</li>
+
+                    <li><strong>Python in Power Query for Machine Learning:</strong> Python scripts are embedded in Power Query to preprocess data and implement machine learning models. Techniques such as linear regression, ARIMA (for time series forecasting), and random forest (for classification) are applied to enhance the dashboard's predictive capabilities.</li>
+
+                    <li><strong>Interactive Visualizations:</strong> The dashboard features dynamic and interactive visualizations, including slicers, drill-throughs, and tooltips, allowing users to explore data at multiple levels of granularity.</li>
+
+                    <li><strong>Data Forecasting and Predictive Analytics:</strong> Machine learning models are used to forecast trends and predict outcomes, providing users with actionable insights for decision-making. For example, ARIMA is used to predict future sales, while random forest helps classify customer segments.</li>
+
+                    <li><strong>User-Friendly Interface:</strong> The dashboard is designed with a focus on usability, ensuring that even non-technical users can easily navigate and derive insights from the data.</li>
+                </ul>
+            </section>
+
+            <!-- Image 2: Dashboard Screenshot -->
+            <div class="project-image">
+                <img src="images/project6-img1.jpg" alt="Dashboard Screenshot">
             </div>
 
-            <!-- Project 3 -->
-            <div class="project-card">
-                <img src="images/project3-img1.jpg" alt="Project 3 Image">
-                <h3>Localization and Freelance Utilization at Trendhim</h3>
-                <p>A study examining how Trendhim navigates localization challenges in global expansion by leveraging freelancers for market strategies.</p>
-                <a href="project3.html" class="project-link">Learn More</a>
+            <!-- Section 3: Technical Implementation -->
+            <section class="project-section">
+                <h3>Technical Implementation</h3>
+                <ul>
+                    <li><strong>Data Modeling:</strong> The star schema is implemented in Power BI, with fact tables for transactional data and dimension tables for attributes like time, geography, and product categories. Relationships are defined to ensure accurate data aggregation.</li>
+
+                    <li><strong>DAX Formulas:</strong> Key DAX formulas include time intelligence functions (e.g., TOTALYTD, SAMEPERIODLASTYEAR) and statistical calculations (e.g., AVERAGE, STDEV). These formulas are used to create KPIs and metrics that drive the dashboard's insights.</li>
+
+                    <li><strong>Python Integration:</strong> Python scripts are written to preprocess data, handle missing values, and train machine learning models. The scripts are executed within Power Query, and the results are loaded into Power BI for visualization.</li>
+
+                    <li><strong>Machine Learning Models:</strong> Linear regression is used for trend analysis, ARIMA for time series forecasting, and random forest for classification tasks. These models are trained on historical data and validated to ensure accuracy.</li>
+                </ul>
+            </section>
+
+            <!-- Image 3: Python Integration -->
+            <div class="project-image">
+                <img src="images/project6-img2.jpg" alt="Python Integration">
             </div>
 
-            <!-- Project 4 -->
-            <div class="project-card">
-                <img src="images/project4-img1.jpg" alt="Project 4 Image">
-                <h3>Data-Driven Stock Market Analysis</h3>
-                <p>An automated Power BI tool that visualizes real-time stock data, enabling informed investment decisions.</p>
-                <a href="project4.html" class="project-link">Learn More</a>
-            </div>
-
-            <!-- Project 5 -->
-            <div class="project-card">
-                <img src="images/project5-img1.jpg" alt="Project 5 Image">
-                <h3>Renewable Energy Forecasting Using AI-Driven Wind Power Prediction Models</h3>
-                <p>This project uses AI and machine learning to predict wind power generation based on real-time weather data, helping optimize energy grid efficiency and balance supply and demand.</p>
-                <a href="project5.html" class="project-link">Learn More</a>
-            </div>
-
-            <!-- Project 6: Retail Sales Analytics & Forecasting with Power BI -->
-            <div class="project-card">
-                <img src="images/retail_sales_img1.jpg" alt="Retail Sales Project Image">
-                <h3>Retail Sales Analytics & Forecasting with Power BI</h3>
-                <p>A comprehensive solution integrating an optimal star schema, interactive real-time dashboards, advanced DAX calculations, and Python-powered forecasting models (ARIMA, Random Forest, and Linear Regression) to analyze and predict retail sales trends.</p>
-                <a href="retail-sales-project.html" class="project-link">Learn More</a>
-            </div>
+            <!-- Section 4: Conclusion -->
+            <section class="project-section">
+                <h3>Conclusion</h3>
+                <p>
+                    This project highlights my ability to design and implement an interactive Power BI dashboard that combines data optimization, advanced analytics, and machine learning. 
+                    By leveraging a star schema, DAX, and Python, I created a robust tool for data visualization and predictive analytics. The dashboard not only provides real-time insights 
+                    but also demonstrates the potential of integrating machine learning into business intelligence workflows. This project serves as a testament to my foundational skills in 
+                    data analysis, visualization, and predictive modeling.
+                </p>
+            </section>
         </div>
+
+        <!-- Navigation Button -->
+        <a href="index.html" class="nav-button">Back</a>
     </div>
 </body>
 </html>
