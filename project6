@@ -1,0 +1,113 @@
+<!-- retail-sales-project.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retail Sales Analytics & Forecasting with Power BI</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container project-page">
+    <h2>Retail Sales Analytics & Forecasting with Power BI</h2>
+
+    <!-- Project Content Wrapper -->
+    <div class="project-content">
+      
+      <!-- Section 1: Project Overview -->
+      <section class="project-section">
+        <h3>Project Overview</h3>
+        <p>
+          This project leverages the capabilities of Power BI to transform raw retail data into actionable insights. By designing an optimal star schema, the project ensures efficient data modeling and fast query performance across multiple data sources. The interactive dashboards update in real-time, offering stakeholders immediate visibility into sales trends and performance metrics.
+        </p>
+        <p>
+          Additionally, advanced DAX implementations are utilized to calculate dynamic KPIs and measures, such as running totals, year-over-year comparisons, and performance tracking metrics. Complementing the Power BI setup, Python scripts are integrated to deploy forecasting models including ARIMA, Random Forest, and Linear Regression, providing robust predictive analytics for retail sales trends.
+        </p>
+      </section>
+
+      <!-- Image 1: Dashboard Overview -->
+      <div class="project-image">
+        <img src="images/retail_sales_img1.jpg" alt="Power BI Retail Dashboard Overview">
+      </div>
+
+      <!-- Section 2: Key Features -->
+      <section class="project-section">
+        <h3>Key Features</h3>
+        <ul>
+          <li>
+            <strong>Optimal Star Schema Design:</strong> 
+            An efficiently structured data model that organizes sales, product, customer, and inventory data, enabling rapid data retrieval and simplified analytics.
+          </li>
+          <li>
+            <strong>Real-Time Interactive Visuals:</strong> 
+            Dynamic dashboards that update with live data feeds, ensuring that decision-makers have access to the most current insights.
+          </li>
+          <li>
+            <strong>Advanced DAX Implementations:</strong> 
+            Custom DAX-coded measures for calculating dynamic KPIs, trend analyses, and performance indicators tailored to retail sales.
+          </li>
+          <li>
+            <strong>Python-Powered Forecasting:</strong> 
+            Integration of Python for sophisticated data processing and predictive modeling. Implementations include:
+            <ul>
+              <li><em>ARIMA:</em> Time series analysis for short-term sales forecasting.</li>
+              <li><em>Random Forest:</em> Ensemble methods for capturing complex nonlinear relationships in sales data.</li>
+              <li><em>Linear Regression:</em> Baseline forecasting to compare trends and validate predictions.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Seamless Data Integration:</strong> 
+            Consolidates data from various sources including POS systems, inventory databases, and customer feedback channels.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Image 2: Interactive Visuals -->
+      <div class="project-image">
+        <img src="images/retail_sales_img2.jpg" alt="Interactive Power BI Visuals">
+      </div>
+
+      <!-- GIF: Interactive Dashboard Showcase -->
+      <div class="project-image">
+        <img src="images/interactive.gif" alt="Interactive Dashboard Showcase">
+      </div>
+
+      <!-- Section 3: Potential Applications -->
+      <section class="project-section">
+        <h3>Potential Applications</h3>
+        <ul>
+          <li>
+            <strong>Inventory Optimization:</strong> 
+            Improved sales forecasts allow for more accurate inventory management and reduction of stock-outs or overstock situations.
+          </li>
+          <li>
+            <strong>Sales Strategy Enhancement:</strong> 
+            Data-driven insights support targeted marketing, promotional planning, and dynamic pricing strategies.
+          </li>
+          <li>
+            <strong>Customer Engagement:</strong> 
+            Detailed analysis of purchasing patterns aids in personalizing customer experiences and loyalty programs.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Image 3: Forecasting Models -->
+      <div class="project-image">
+        <img src="images/retail_sales_img3.jpg" alt="Forecasting Models Visualization">
+      </div>
+
+      <!-- Section 4: Conclusion -->
+      <section class="project-section">
+        <h3>Conclusion</h3>
+        <p>
+          This project showcases the integration of robust data modeling with real-time interactive dashboards in Power BI, enhanced by advanced DAX calculations and Python-based forecasting. By combining these technologies, the solution delivers actionable insights and predictive analytics that empower retail businesses to make informed decisions and optimize their sales strategies.
+        </p>
+      </section>
+
+    </div>
+
+    <!-- Navigation Button -->
+    <a href="index.html" class="nav-button">Back</a>
+  </div>
+</body>
+</html>
